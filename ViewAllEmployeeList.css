@@ -1,0 +1,66 @@
+/* ViewAllEmployeeList.css */
+
+/* Styles for the view popup */
+.view-all-confirmation-dialog {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(249, 244, 244);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1001; /* Ensure popup is above other content */
+    max-width: 100%; /* Adjust maximum width as needed */
+    max-height: 80vh; /* Adjust maximum height as needed */
+    overflow-y: auto; /* Add scrollbar when content exceeds height */
+}
+
+/* Overlay Styles */
+.view-all-confirmation-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Ensure overlay is below popup */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Additional styles for table and rows */
+.ex-employee-row {
+    background-color: #f2f2f2;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.disabled {
+    background-color: #f2f2f2;
+    color: #999;
+}
+
+.row {
+    min-width: max-content;
+}
+
+.deleteEmployee-title {
+    color: #de310a;
+    font-size: 20px;
+}
+
+.model-buttons {
+    position: relative;
+    top: 1rem;
+    left: 16rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .form-control {
+        max-width: 90%;
+    }
+}
