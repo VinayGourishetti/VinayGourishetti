@@ -1,0 +1,70 @@
+/* Update.css */
+
+/* Center the modal content */
+.view-confirmation-dialog {
+    position: fixed;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 1300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Overlay */
+  .view-confirmation-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  /* Table styling */
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #dee2e6;
+  }
+  
+  /* Center align text */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Button styles */
+  .btn {
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .btn-success:hover,
+  .btn-secondary:hover {
+    filter: brightness(110%);
+  }
+  
+  /* Responsive table */
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  /* Margin bottom for buttons */
+  .text-center > .btn {
+    margin-bottom: 10px;
+  }
+  
